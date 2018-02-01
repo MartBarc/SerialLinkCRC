@@ -1,0 +1,25 @@
+108
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 1 "./../src/MB_CD4014B.v" 25 MB_CD4014B
+~A 1 "./../src/MB_CD4014B.v" 25 MB_CD4014B
+~M 1 "./../src/MB_CD4029B.v" 25 MB_CD4029B
+~A 1 "./../src/MB_CD4029B.v" 25 MB_CD4029B
+~M 3 ".\..\src\MB_CRC3_che.bde" 25 MB_CRC3_che
+~A 1 "./../compile/MB_CRC3_che.v" 30 MB_CRC3_che
+~M 3 ".\..\src\MB_CRC3_gen.bde" 25 MB_CRC3_gen
+~A 1 "./../compile/MB_CRC3_gen.v" 30 MB_CRC3_gen
+~M 3 ".\..\src\MB_CRC_TEST1.bde" 0 MB_CRC_TEST1
+~M 3 ".\..\src\MB_CRCche_TEST.bde" 25 MB_CRCche_TEST
+~M 3 ".\..\src\MB_Controller.bde" 25 MB_Controller
+~A 1 "./../compile/MB_Controller.v" 30 MB_Controller
+~M 1 ".\..\src\MB_Controller2.bde" 0 MB_Controller2
+~A 1 "./../compile/MB_Controller2.v" 30 MB_Controller2
+~M 1 "./../src/MB_Dff.v" 25 MB_Dff
+~A 1 "./../src/MB_Dff.v" 25 MB_Dff
+~M 3 ".\..\src\MB_ERROR_TEST.bde" 25 MB_ERROR_TEST
+~A 1 "./../compile/MB_ERROR_TEST.v" 30 MB_ERROR_TEST
+~M 3 ".\..\src\MB_Full_Comm.bde" 25 MB_Full_Comm
+~A 1 "./../compile/MB_Full_Comm.v" 30 MB_Full_Comm
+~M 1 "./../src/MB_JKff.v" 25 MB_JKff
+~A 1 "./../src/MB_JKff.v" 25 MB_JKff

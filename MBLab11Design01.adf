@@ -1,0 +1,124 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=MBLab11Design01
+
+[Library]
+MBLab11Design01=.\MBLab11Design01\MBLab11Design01.lib
+
+[Settings]
+AccessRead=1
+AccessReadWrite=1
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=1
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FUNC_LIB=MBLab11Design01
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+MBLab11Design01=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[SIM.FUNC]
+FJD=FunctionalSimTask
+FST=-all
+OPTION=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=log\*.*:synthesis\*.*:implement\*.*
+SERVERFARM_SFM_RESOURCE=
+TOPLEVEL=MB_Controller2
+WAVEFORMS=
+DEFWAVE=1
+ADD_HIERARCHY_SIGNALS=0
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[Folders]
+Name3=Makefiles
+Directory3=D:\Google Drive\SBU\S8 Fall 2017\ESE_218\Labs\Lab11\Lab11_Workspace\MBLab11Design01\
+Extension3=mak
+Name4=Memory
+Directory4=D:\Google Drive\SBU\S8 Fall 2017\ESE_218\Labs\Lab11\Lab11_Workspace\MBLab11Design01\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=D:\Google Drive\SBU\S8 Fall 2017\ESE_218\Labs\Lab11\Lab11_Workspace\MBLab11Design01\
+Extension5=dll
+Name6=PDF
+Directory6=D:\Google Drive\SBU\S8 Fall 2017\ESE_218\Labs\Lab11\Lab11_Workspace\MBLab11Design01\
+Extension6=pdf
+Name7=HTML
+Directory7=D:\Google Drive\SBU\S8 Fall 2017\ESE_218\Labs\Lab11\Lab11_Workspace\MBLab11Design01\
+Extension7=htm;html
+
+[Files]
+/MB_Dff.v=-1
+/MB_JKff.v=-1
+/MB_CRC3_gen.bde=-1
+/MB_CRC3_che.bde=-1
+/MB_CD4014B.v=-1
+/MB_CD4029B.v=-1
+/MB_Controller.bde=-1
+/MB_Controller2.bde=-1
+/MB_Full_Comm.bde=-1
+/MB_ERROR_TEST.bde=-1
+
+[Files.Data]
+.\src\MB_Dff.v=Verilog Source Code
+.\src\MB_JKff.v=Verilog Source Code
+.\src\MB_CRC3_gen.bde=Block Diagram
+.\src\MB_CRC3_che.bde=Block Diagram
+.\src\MB_CD4014B.v=Verilog Source Code
+.\src\MB_CD4029B.v=Verilog Source Code
+.\src\MB_Controller.bde=Block Diagram
+.\src\MB_Controller2.bde=Block Diagram
+.\src\MB_Full_Comm.bde=Block Diagram
+.\src\MB_ERROR_TEST.bde=Block Diagram
+
+[file_out:/MB_CRC3_gen.bde]
+/..\compile\MB_CRC3_gen.v=-1
+
+[file_out:/MB_CRC3_che.bde]
+/..\compile\MB_CRC3_che.v=-1
+
+[file_out:/MB_Controller.bde]
+/..\compile\MB_Controller.v=-1
+
+[file_out:/MB_Controller2.bde]
+/..\compile\MB_Controller2.v=-1
+
+[file_out:/MB_Full_Comm.bde]
+/..\compile\MB_Full_Comm.v=-1
+
+[file_out:/MB_ERROR_TEST.bde]
+/..\compile\MB_ERROR_TEST.v=-1
+

@@ -1,0 +1,144 @@
+SCHM0106
+HEADER
+{
+  FREEID 13
+  VARIABLES
+  {
+    #DEFAULT_RANGE1="<range<name=\"Data_in\"><left=\"7\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+    #LANGUAGE="VERILOG"
+    #MODULE="MB_CRC_TEST1"
+    AUTHOR="MartinBarcelon"
+    COMPANY="StonybrookU"
+    CREATIONDATE="11/28/2017"
+    TITLE="MB_CRC_TEST1"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    PAGESIZE (2200,1700)
+  }
+  BODY
+  {
+    INSTANCE 1,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="BusInput"
+        #DOWNTO="1"
+        #LIBRARY="#terminals"
+        #REFERENCE="Data_in(7:0)"
+        #SYMBOL="BusInput"
+      }
+      COORD (440,460)
+    }
+    TEXT 10,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (1835,444,1835,444)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      PARENT 9
+    }
+    INSTANCE 11,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Output"
+        #LIBRARY="#terminals"
+        #REFERENCE="Data_out"
+        #SYMBOL="Output"
+      }
+      COORD (1780,520)
+    }
+    TEXT 12,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (1835,504,1835,504)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      PARENT 11
+    }
+    TEXT 2,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (385,444,385,444)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      ALIGN 2
+      PARENT 1
+    }
+    INSTANCE 3,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Input"
+        #LIBRARY="#terminals"
+        #REFERENCE="Select"
+        #SYMBOL="Input"
+      }
+      COORD (440,520)
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (385,504,385,504)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      ALIGN 2
+      PARENT 3
+    }
+    INSTANCE 5,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Input"
+        #LIBRARY="#terminals"
+        #REFERENCE="CLK"
+        #SYMBOL="Input"
+      }
+      COORD (440,580)
+    }
+    TEXT 6,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (385,564,385,564)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      ALIGN 2
+      PARENT 5
+    }
+    INSTANCE 7,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Input"
+        #LIBRARY="#terminals"
+        #REFERENCE="CLR"
+        #SYMBOL="Input"
+      }
+      COORD (440,640)
+    }
+    TEXT 8,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (385,624,385,624)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      ALIGN 2
+      PARENT 7
+    }
+    INSTANCE 9,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Output"
+        #LIBRARY="#terminals"
+        #REFERENCE="ERROR"
+        #SYMBOL="Output"
+      }
+      COORD (1780,460)
+    }
+  }
+}

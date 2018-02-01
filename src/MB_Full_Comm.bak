@@ -1,0 +1,166 @@
+SCHM0106
+HEADER
+{
+  FREEID 15
+  VARIABLES
+  {
+    #DEFAULT_RANGE2="<range<name=\"Jam\"><left=\"3\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+    #DEFAULT_RANGE3="<range<name=\"Data_in\"><left=\"7\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+    #LANGUAGE="VERILOG"
+    #MODULE="MB_Full_Comm"
+    AUTHOR="MartinBarcelon"
+    COMPANY="StonybrookU"
+    CREATIONDATE="11/28/2017"
+    TITLE="MB_Full_Comm"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    PAGESIZE (2200,1700)
+  }
+  BODY
+  {
+    INSTANCE 1,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="BusInput"
+        #DOWNTO="1"
+        #LIBRARY="#terminals"
+        #REFERENCE="Jam(3:0)"
+        #SYMBOL="BusInput"
+      }
+      COORD (440,460)
+    }
+    TEXT 10,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (385,684,385,684)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      ALIGN 2
+      PARENT 9
+    }
+    INSTANCE 11,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Output"
+        #LIBRARY="#terminals"
+        #REFERENCE="Data_Out"
+        #SYMBOL="Output"
+      }
+      COORD (1780,460)
+    }
+    TEXT 12,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (1835,444,1835,444)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      PARENT 11
+    }
+    INSTANCE 13,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Output"
+        #LIBRARY="#terminals"
+        #REFERENCE="Error"
+        #SYMBOL="Output"
+      }
+      COORD (1780,520)
+    }
+    TEXT 14,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (1835,504,1835,504)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      PARENT 13
+    }
+    TEXT 2,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (385,444,385,444)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      ALIGN 2
+      PARENT 1
+    }
+    INSTANCE 3,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="BusInput"
+        #DOWNTO="1"
+        #LIBRARY="#terminals"
+        #REFERENCE="Data_in(7:0)"
+        #SYMBOL="BusInput"
+      }
+      COORD (440,520)
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (385,504,385,504)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      ALIGN 2
+      PARENT 3
+    }
+    INSTANCE 5,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Input"
+        #LIBRARY="#terminals"
+        #REFERENCE="Init"
+        #SYMBOL="Input"
+      }
+      COORD (440,580)
+    }
+    TEXT 6,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (385,564,385,564)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      ALIGN 2
+      PARENT 5
+    }
+    INSTANCE 7,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Input"
+        #LIBRARY="#terminals"
+        #REFERENCE="CLK"
+        #SYMBOL="Input"
+      }
+      COORD (440,640)
+    }
+    TEXT 8,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (385,624,385,624)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      ALIGN 2
+      PARENT 7
+    }
+    INSTANCE 9,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="Input"
+        #LIBRARY="#terminals"
+        #REFERENCE="Enable"
+        #SYMBOL="Input"
+      }
+      COORD (440,700)
+    }
+  }
+}
